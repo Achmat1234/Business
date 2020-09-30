@@ -8,6 +8,10 @@ body, html{
     overflow-x: hidden;
     background: #2F3238;
 }
+.h1, h1 {
+    font-size: 74px;
+    margin-top: -15px;
+}
 h1{
     text-transform: none;
 }
@@ -35,9 +39,9 @@ h5{
 p{
     font-family: 'Open Sans', sans-serif;
 }
-p.lead{
-    font-size: 16px;
-    margin: 12px 0 0;
+p.lead {
+    font-size: 47px;
+    margin: 36px 0px 0;
     line-height: 24px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -99,7 +103,7 @@ ul, ol{
 #art-menu.navbar-default .navbar-nav > li > a {
     text-transform: uppercase;
     color: #FFF;
-    font-size: 12px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 .on {
@@ -142,15 +146,15 @@ ul, ol{
     color: #cfcfcf;
 
 }
-.content{
-    position:relative;
-    padding: 20% 0 0;
+.content {
+    position: relative;
+    padding: 17% 0 0;
 }
 
-#home .layer{
-    height: 750px;
+#home .layer {
+    height: 700px;
     background-attachment: fixed;
-background: rgba(7, 2, 4, 0.77);
+    background: rgba(7, 2, 4, 0.77);
 }
 
 #home p.lead{
@@ -191,9 +195,9 @@ background: rgba(7, 2, 4, 0.77);
 #features .slider-layer {
     opacity: 0.8;
 }
-#about p
-{
-     margin-top: 0;
+#about p {
+    font-size: 17px;
+    margin-top: 0;
     margin-bottom: 1.6em;
 }
 .joinjour {
@@ -473,7 +477,7 @@ a.fa.fa-angle-down {
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 24px;
-    margin-top: 200px;
+    margin-top: 145px;
     transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
@@ -598,3 +602,80 @@ a.fa.fa-angle-down:hover{
     -o-transition: 500ms;
     transition: 500ms;
 }
+
+.glowing {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+  
+  .glowing span {
+    font-family: verdana;
+    font-size: 25px;
+    color: #fff;
+    display: contents;
+    animation: animate 2s linear infinite;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid rgba(255,255,255,.4);
+    margin: 0 -2.5px;
+}
+  
+  
+  
+  @keyframes animate{
+    0%{
+      color: #f00;
+      box-shadow: 0px 2px 10px rgba(255,0,0,1);
+      border: 1px solid rgba(255,0,0,1);
+    }
+  
+    33.3%{
+      color: #ff0;
+      box-shadow: 0px 2px 10px rgba(255,255,0,1);
+      border: 1px solid rgba(255,0,0,1);
+    }
+  
+    66.6%{
+      color: #0f0;
+      box-shadow: 0px 2px 10px rgba(0,255,0,1);
+      border: 1px solid rgba(0,255,0,1);
+    }
+  
+    100%{
+      color: #f00;
+      box-shadow: 0px 2px 10px rgba(255,0,0,1);
+      border: 1px solid rgba(255,0,0,1);
+    }
+  }
+  
+  .glowing span:nth-child(1){
+    animation-delay: 0s;
+  }
+  
+  .glowing span:nth-child(2){
+    animation-delay: 0.1s;
+  }
+  
+  .glowing span:nth-child(3){
+    animation-delay: 0.2s;
+  }
+  
+  .glowing span:nth-child(4){
+    animation-delay: 0.3s;
+  }
+  
+  .glowing span:nth-child(5){
+    animation-delay: 0.4s;
+  }
+  
+  .glowing span:nth-child(6){
+    animation-delay: 0.5s;
+  }
+  
+  .glowing span:nth-child(7){
+    animation-delay: 0.6s;
+  }
