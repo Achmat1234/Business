@@ -630,7 +630,7 @@ a.fa.fa-angle-down:hover{
     0%{
       color: #f00;
       box-shadow: 0px 2px 10px rgba(255,0,0,1);
-      border: 1px solid rgba(255,0,0,1);
+      border: 1px solid rgb(248, 98, 98);
     }
   
     33.3%{
@@ -640,7 +640,7 @@ a.fa.fa-angle-down:hover{
     }
   
     66.6%{
-      color: #0f0;
+      color: rgba(0, 255, 0, 0.959);
       box-shadow: 0px 2px 10px rgba(0,255,0,1);
       border: 1px solid rgba(0,255,0,1);
     }
