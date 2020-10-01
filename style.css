@@ -12,11 +12,13 @@ body, html{
     font-size: 74px;
     margin-top: -15px;
 }
-h1{
+h1 {
     text-transform: none;
+    width: 93%;
 }
-h1 strong{
+h1 strong {
     font-weight: 800;
+    color: red;
 }
 h2{
     text-transform: none;
@@ -158,8 +160,9 @@ ul, ol{
     background: rgba(7, 2, 4, 0.77);
 }
 
-#home p.lead{
+#home p.lead {
     color: #fff;
+    width: 93%;
 }
 .white-bg {
   background: #ffffff;
