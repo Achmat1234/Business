@@ -175,9 +175,14 @@ ul, ol{
 }
 /* About Section
 ==============================*/
-#about{
+#about {
     padding: 80px 0;
-
+    /* background-color: rgba(211, 211, 211, 0.103); */
+    background: url(.//img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .about
 {
