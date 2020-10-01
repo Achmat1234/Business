@@ -195,8 +195,9 @@ ul, ol{
 #features .slider-layer {
     opacity: 0.8;
 }
+
 #about p {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 21px;
     margin-top: 0;
     margin-bottom: 1.6em;
