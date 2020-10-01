@@ -432,6 +432,10 @@ ul, ol{
 .portfolio-item img {
     width: 100%;
 }
+h5 {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
 .portfolio-item h5 {
     background-color: #26292E ;
     margin: 0;
