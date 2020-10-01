@@ -196,13 +196,14 @@ ul, ol{
     opacity: 0.8;
 }
 .p{
-    font-size: 23px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
 }
 #about p {
     font-family: 'Raleway', sans-serif;
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 23px;
+    font-size: 24px;
 }
 .joinjour {
     width:100%;
