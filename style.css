@@ -27,6 +27,7 @@ h2{
 h3{
     font-size: 18px;
     font-weight: 900;
+    font-size: 18px;
 }
 h4{
     text-transform: none;
@@ -474,7 +475,7 @@ ul, ol{
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 23.5px;
+    font-size: 24.5px;
     border:none;
 }
 a.fa.fa-angle-down {
