@@ -200,7 +200,7 @@ ul, ol{
     font-family: 'Raleway', sans-serif;
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: large;
+    font-size: x-large;
 }
 .joinjour {
     width:100%;
@@ -432,10 +432,7 @@ ul, ol{
 .portfolio-item img {
     width: 100%;
 }
-h5 {
-    color: #fff;
-    font-family: 'Nunito', sans-serif;
-}
+
 .portfolio-item h5 {
     background-color: #26292E ;
     margin: 0;
