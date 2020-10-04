@@ -213,11 +213,12 @@ ul, ol{
     font-family: 'Raleway', sans-serif;
 }
 #about p {
+    color: currentColor;
     font-family: 'Raleway', sans-serif;
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 24px;
-    background-color: rgba(78, 58, 58, 0.438);
+    background-color: rgba(56, 35, 35, 0.507);
 }
 #about p .layer {
     background: rgba(7, 2, 4, 0.233);
